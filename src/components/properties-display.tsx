@@ -6,7 +6,7 @@ export const PropertiesDisplay = () => {
     console.log(propertyData.length)
     return (
         <>
-            <ul>
+            <ul className="flex flex-col">
                 {propertyData.map((p) => <Card property={p} />)}
             </ul>
         </>
